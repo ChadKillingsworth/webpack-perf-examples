@@ -1,0 +1,2 @@
+# webpack bundles don't adhere to our coding rules :)
+examples/**/*bundle.js

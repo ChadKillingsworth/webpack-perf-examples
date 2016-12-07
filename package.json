@@ -1,0 +1,39 @@
+{
+  "name": "webpack-perf-examples",
+  "version": "1.0.0",
+  "description": "Simple examples of webpack bundles that can be used for performance tests",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "build": "node bin/build",
+    "lint": "eslint --fix examples",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhnns/webpack-perf-examples.git"
+  },
+  "keywords": [
+    "webpack",
+    "example",
+    "simple",
+    "performance",
+    "test"
+  ],
+  "author": "mail@johannesewald.de",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/jhnns/webpack-perf-examples/issues"
+  },
+  "homepage": "https://github.com/jhnns/webpack-perf-examples#readme",
+  "devDependencies": {
+    "eslint": "^3.11.1",
+    "eslint-config-peerigon": "^7.0.0",
+    "eslint-plugin-jsdoc": "^2.4.0"
+  },
+  "dependencies": {
+    "webpack": "^2.1.0-beta.27"
+  }
+}

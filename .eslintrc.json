@@ -1,0 +1,15 @@
+{
+    "root": true,
+    "extends": [
+        "peerigon/base"
+    ],
+    "env": {
+        "browser": true,
+        "node": true,
+        "amd": true
+    },
+    "rules": {
+        // We don't want to write AMD with arrow functions becaue that feels anachronistic
+        "prefer-arrow-callback": 0
+    }
+}
