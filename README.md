@@ -4,7 +4,7 @@ Simple examples of webpack bundles that can be used for performance tests
 
 ## Folders
 
-The `examples` folder contains typical webpack projects stripped down to the most essential parts. webpack itself supports three different module formats:
+The [examples](/examples) folder contains typical webpack projects stripped down to the most essential parts. webpack itself supports three different module formats:
 
 - CommonJS
 - AMD
