@@ -34,6 +34,7 @@
     "eslint-plugin-jsdoc": "^2.4.0"
   },
   "dependencies": {
-    "webpack": "^2.1.0-beta.27"
+    "google-closure-compiler": "google/closure-compiler-npm#webpack",
+    "webpack": "^3.3.0"
   }
 }
